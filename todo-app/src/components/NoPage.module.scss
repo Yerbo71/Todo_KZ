@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    background-image: url("./../assets/cosmos.jpg");
+
+    .box{
+        padding: 50px;
+        border-radius: 15px;
+        backdrop-filter: invert(80%);
+    }
+
+    h1{
+        color: #303030;
+        font-weight: 700;
+        font-size: 72px;
+        margin: 0;
+
+    }
+    p{
+        color:#303030;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    button{
+        color: white;
+        border-radius: 15px;
+        border: none;
+        padding: 10px 40px;
+        font-weight: 700;
+        font-size: 24px;
+        background-color: #707070;
+        margin-top: 30px;
+    }
+    button:hover{
+        border: 2px solid white;
+    }
+}
+

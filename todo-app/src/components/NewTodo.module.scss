@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.main{
+    width: 100vw;
+    height: 92vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    h2{
+        color: #5E5E5E;
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .box{
+        padding: 50px;
+        width: 500px;
+        background-color: white;
+        border-radius: 15px;
+        form{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            input{
+                width: 100%;
+                padding: 10px;
+                border-radius: 15px;
+                border: 1px solid #5E5E5E;
+                font-size: 14px;
+            }
+        
+            input:hover{
+                border: 1px solid #1E9CEA;
+            }
+            select{
+                width: 100%;
+                padding: 10px;
+                border-radius: 15px;
+                border: 1px solid #5E5E5E;
+                font-size: 14px;
+            }
+        
+            select:hover{
+                border: 1px solid #1E9CEA;
+            }
+
+            .boxbutton{
+                margin-top: 20px;
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+
+                .qosu{
+                    background-color: #B47AEA;
+                    color: white;
+                    border: none;
+                    padding: 10px 40px;
+                    border-radius: 15px;
+                    font-size: 18px;
+                }
+                .qospau{
+                    background-color: white;
+                    color: #5E5E5E;
+                    border: 1px solid #6C6C6C;
+                    border-radius: 15px;
+                    padding: 10px 40px;
+                    font-size: 18px;
+                }
+                .qospau:hover{
+                    border: 1px solid #1E9CEA;
+                }
+
+                }
+
+        }
+    }
+}

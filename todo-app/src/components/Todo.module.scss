@@ -1,0 +1,25 @@
+.main{
+    width: 100vw;
+    height: 94vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    .box{
+        padding: 50px;
+        width: 500px;
+        background-color: white;
+        border-radius: 15px;
+        .link{
+            margin-bottom: 20px;
+            color: #B47AEA;
+            font-size: 24px;
+        }
+    }
+    .filter{
+        
+    }
+}
