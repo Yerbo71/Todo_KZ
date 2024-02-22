@@ -2,8 +2,8 @@ import React, { useContext, useState } from "react";
 import styles from "./TodoList.module.scss";
 import { AppContext } from "../App";
 import { Link } from "react-router-dom";
-import gavno from "./../assets/garbage.svg";
-import gavno2 from "./../assets/Edit.svg";
+import garbage from "./../assets/garbage.svg";
+import edit from "./../assets/Edit.svg";
 
 export default function TodoList() {
   const { todos,groups, removeTodo } = useContext(AppContext);
@@ -38,8 +38,8 @@ export default function TodoList() {
           <span style={{ textDecoration: checkedTodos.includes(index) ? "line-through" : "none" }}>
             {todos}
           </span>
-          <button onClick={() => handleDelete(index)}><img src={gavno}/></button>
-          <Link to={"/todo/" + index}><button><img src={gavno2}/></button></Link>
+          <button onClick={() => handleDelete(index)}><img src={garbage}/></button>
+          <Link to={"/todo/" + index}><button><img src={edit}/></button></Link>
         </div>
       ))}
     </>
